@@ -4,3 +4,5 @@ scrapy>=1.4.0
 python-dateutil>=2.6.1
 pytest-xdist>=1.20.1
 PyYAML>=3.12
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=22.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
