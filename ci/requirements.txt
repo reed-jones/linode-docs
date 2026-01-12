@@ -1,6 +1,8 @@
 regex>=2017.4.5
 requests>=2.14.2
-scrapy>=1.4.0
+scrapy>=2.14.0
 python-dateutil>=2.6.1
 pytest-xdist>=1.20.1
 PyYAML>=3.12
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
